@@ -17,8 +17,5 @@ Hindrik Öunpuu 2020-11-13
 
 Designmallar
 
-x-special/nautilus-clipboard
-copy
-file:///home/hindrik/Skrivbord/VisualCodeStudio/Dev%20ed/My%20project_skolan%20slider/Min%20hemsida_kursen_mall-blommor-12-11.pdf
-file:///home/hindrik/Skrivbord/VisualCodeStudio/Dev%20ed/My%20project_skolan%20slider/Min%20hemsida_kursen_mall-index12-11.pdf
+
 
