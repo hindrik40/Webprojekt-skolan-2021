@@ -1,0 +1,78 @@
+
+body{
+    
+    display:flex;
+    flex-direction:column;
+    box-sizing:border-box;
+    msargin:0;
+    padding:0;
+}
+.header{
+  height:20%;
+  width:auto;
+  background-image: url(../images/lejon1.jpg);
+  border:1px solid black;
+  padding:10px;
+  margin:15px;
+  border-radius:15px;
+}
+* {box-sizing: border-box}
+body {font-family: Arial, Helvetica, sans-serif;}
+
+.navbar {
+  width: auto;
+  background-color: rgb(105, 95, 95);
+  overflow: auto;
+  border-radius: 15px;
+  
+}
+
+.navbar a {
+  float:left;
+  padding: 12px 5px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 25%; /* Four links of equal widths */
+  text-align: center;
+  border: 1px solid black;border-radius:15px;
+  margin-bottom:10px;
+}
+navbar a #{
+  background-color: whitesmoke;
+}
+li {
+  background-color: white;
+}
+.navbar a:hover {
+  background-color: #000;
+}
+
+.navbar a.active {
+  background-color: #7ece6b;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+  
+
+
+.main{
+  width:95%;
+  height:60%;
+  background-color:lightpink;
+  border:5px solid black;
+  padding:10px;
+  margin:20px;
+  border-radius:15px;
+}
+
+.footer{
+  background-color:rgb(128, 92, 46);
+  
+}
