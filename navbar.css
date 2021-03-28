@@ -12,13 +12,15 @@ body {
 .navbar {
     font-size: 18px;
     background-image: linear-gradient(260deg, #2376ae 0%, #e9497e 100%);
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    padding-bottom: 10px;
+    border: 5px solid rgba(0, 0, 0, 0.2);
     border-radius: 10px;
+    margin:5px;
+   
 }
 
 .main-nav {
     list-style-type: none;
+   
 }
 
 .nav-links,
@@ -47,7 +49,7 @@ body {
     top: 10px;
     right: 20px;
     cursor: pointer;
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(184, 170, 170, 0.8);
     font-size: 24px;
 }
 
@@ -81,7 +83,7 @@ body {
     }
 
     .nav-links {
-        margin: 75px;
+        margin: 60px;
         border-radius: 10px;
         width: 100px;
 
@@ -108,23 +110,20 @@ body {
     }
 
     ul li a {
-        background-color: #bad5eb;
+        background-image: linear-gradient(260deg, #2376ae 0%, #e9497e 100%);
         border-radius:20px;
         border: 1px solid black;
         padding: 5px 10px;
 
 
-    }
-    
-
-
+    }   
 
 }
 
 
 .header {
 
-    border: 1px solid black;
+    border: 5px solid black;
     text-align: center;
     border-radius: 10px;
     background-image: linear-gradient(260deg, #2376ae 0%, #e9497e 100%);
@@ -133,13 +132,16 @@ body {
     background-size: cover;
     Width: 100%;
     height:150px;
+    margin-bottom:1px;
+    
+   
 }
 
 .main_content {
     border-radius: 10px;
     text-align: center;
     padding: 10px;
-    border: 1px solid black;
+    border: 5px solid black;
     background-image: linear-gradient(260deg, #2376ae 0%, #e9497e 100%);
 
 }
@@ -148,7 +150,7 @@ body {
     border-radius: 10px;
     text-align: center;
     padding: 10px;
-    border: 1px solid black;
+    border: 5px solid black;
     background-image: linear-gradient(260deg, #2376ae 0%, #e9497e 100%);
 
 }
